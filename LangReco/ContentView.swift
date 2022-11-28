@@ -20,11 +20,14 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(fetchedWordsList) { item in
-                    VStack {
-                        Text(item.word ?? "")
-                            .frame(width: .infinity,alignment: .leading)
+                    NavigationLink(destination: EditWordsView(word: String())) {
+                        VStack {
+                            Text(item.word ?? "")
+                                .frame(width: .infinity,alignment: .leading)
+                        }
                     }
                 }
+                .onDelete(perform: deleteWord)
             }
             .navigationTitle("Words")
             .navigationBarTitleDisplayMode(.automatic)
@@ -36,6 +39,14 @@ struct ContentView: View {
                 }
             }
         }
+    }
+    
+    private func deleteWord(offsets: IndexSet) {
+        offsets.forEach { index in
+            viewContext.delete(fetchedWordsList[index])
+        }
+        
+        try? viewContext.save()
     }
 }
 
