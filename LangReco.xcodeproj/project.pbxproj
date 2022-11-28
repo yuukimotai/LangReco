@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F3B2BF129335EE9008FDBD8 /* AddWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B2BF029335EE9008FDBD8 /* AddWordsView.swift */; };
+		9F48F4B02934CCE9006E99D8 /* EditWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48F4AF2934CCE9006E99D8 /* EditWordsView.swift */; };
 		9F6B3B00293230EF00F6B52B /* LangRecoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3AFF293230EF00F6B52B /* LangRecoApp.swift */; };
 		9F6B3B02293230EF00F6B52B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B01293230EF00F6B52B /* ContentView.swift */; };
 		9F6B3B04293230F000F6B52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B3B03293230F000F6B52B /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		9F3B2BF029335EE9008FDBD8 /* AddWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordsView.swift; sourceTree = "<group>"; };
+		9F48F4AF2934CCE9006E99D8 /* EditWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordsView.swift; sourceTree = "<group>"; };
 		9F6B3AFC293230EF00F6B52B /* LangReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LangReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B3AFF293230EF00F6B52B /* LangRecoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangRecoApp.swift; sourceTree = "<group>"; };
 		9F6B3B01293230EF00F6B52B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				9F6B3AFF293230EF00F6B52B /* LangRecoApp.swift */,
 				9F3B2BF029335EE9008FDBD8 /* AddWordsView.swift */,
 				9F6B3B01293230EF00F6B52B /* ContentView.swift */,
+				9F48F4AF2934CCE9006E99D8 /* EditWordsView.swift */,
 				9F6B3B03293230F000F6B52B /* Assets.xcassets */,
 				9F6B3B08293230F000F6B52B /* Persistence.swift */,
 				9F6B3B0A293230F000F6B52B /* LangReco.xcdatamodeld */,
@@ -282,6 +285,7 @@
 				9F6B3B09293230F000F6B52B /* Persistence.swift in Sources */,
 				9F6B3B02293230EF00F6B52B /* ContentView.swift in Sources */,
 				9F6B3B302932319000F6B52B /* Words+CoreDataClass.swift in Sources */,
+				9F48F4B02934CCE9006E99D8 /* EditWordsView.swift in Sources */,
 				9F6B3B00293230EF00F6B52B /* LangRecoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
