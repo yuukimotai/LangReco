@@ -13,7 +13,7 @@ struct ContentView: View {
 
     @FetchRequest(
         entity: Words.entity(),
-        sortDescriptors: [NSSortDescriptor(keyPath: \Words.word, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Words.englishWord, ascending: true)],
         animation: .default) var fetchedWordsList: FetchedResults<Words>
 
     var body: some View {
@@ -22,7 +22,7 @@ struct ContentView: View {
                 ForEach(fetchedWordsList) { item in
                     NavigationLink(destination: EditWordsView(word: String())) {
                         VStack {
-                            Text(item.word ?? "")
+                            Text(item.englishWord ?? "")
                                 .frame(width: .infinity,alignment: .leading)
                         }
                     }

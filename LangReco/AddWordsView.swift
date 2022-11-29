@@ -10,11 +10,15 @@ import SwiftUI
 struct AddWordsView: View {
     @Environment(\.managedObjectContext) private var ViewContext
     @Environment(\.presentationMode) var presentation
-    @State private var word: String = ""
+    @State private var english: String = ""
+    @State private var japanese: String = ""
     
     var body: some View {
         VStack {
-            TextField("英単語の追加", text: $word)
+            TextField("英単語の追加", text: $english)
+                .font(.body)
+            Spacer()
+            TextField("日本語の意味の追加", text: $japanese)
                 .font(.body)
             Spacer()
         }
@@ -30,7 +34,8 @@ struct AddWordsView: View {
     
     private func addWord() {
         let item = Words(context: ViewContext)
-        item.word = word
+        item.englishWord = english
+        item.japaneseWord = japanese
         
         try? ViewContext.save()
         

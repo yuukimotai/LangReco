@@ -15,7 +15,7 @@ struct PersistenceController {
         let viewContext = result.container.viewContext
         for index in 0..<10 {
             let newWords = Words(context: viewContext)
-            newWords.word = "test word\(index + 1)"
+            newWords.englishWord = "test word\(index + 1)"
         }
         do {
             try viewContext.save()
