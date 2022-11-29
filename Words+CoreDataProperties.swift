@@ -17,7 +17,8 @@ extension Words {
     }
 
     @NSManaged public var uuid: UUID?
-    @NSManaged public var word: String?
+    @NSManaged public var englishWord: String?
+    @NSManaged public var japaneseWord: String?
 
 }
 
