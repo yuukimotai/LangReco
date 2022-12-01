@@ -2,7 +2,7 @@
 //  Words+CoreDataProperties.swift
 //  LangReco
 //
-//  Created by 茂田井雄輝 on 2022/11/26.
+//  Created by 茂田井雄輝 on 2022/11/30.
 //
 //
 
@@ -16,12 +16,11 @@ extension Words {
         return NSFetchRequest<Words>(entityName: "Words")
     }
 
-    @NSManaged public var uuid: UUID?
     @NSManaged public var englishWord: String?
     @NSManaged public var japaneseWord: String?
+    @NSManaged public var uuid: UUID?
 
 }
 
 extension Words : Identifiable {
-
 }
