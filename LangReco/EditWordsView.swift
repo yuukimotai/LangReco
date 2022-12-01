@@ -9,18 +9,24 @@ import SwiftUI
 
 struct EditWordsView: View {
     @Environment(\.managedObjectContext) private var viewContext
-    @State private var word: String
+    @State private var english: String
+    @State private var japanese: String
+    private var words: Words
     
-    init(word: String) {
-        self.word = word
+    
+    init(words: Words) {
+        self.words = words
+        self.english = words.englishWord ?? ""
+        self.japanese = words.japaneseWord ?? ""
     }
     
     var body: some View {
         VStack {
-            TextField("英単語の編集", text: $word)
+            TextField("英単語の編集", text: $english)
                 .font(.body)
-            
             Spacer()
+            TextField("意味の編集", text: $japanese)
+                .font(.body)
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -33,7 +39,8 @@ struct EditWordsView: View {
     }
     
     private func saveWord() {
-        self.word = word
+        self.english = english
+        self.japanese = japanese
         
         try? viewContext.save()
     }
@@ -41,6 +48,6 @@ struct EditWordsView: View {
 
 struct EditWordsView_Previews: PreviewProvider {
     static var previews: some View {
-        EditWordsView(word: String())
+        EditWordsView(words: Words())
     }
 }

@@ -20,10 +20,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(fetchedWordsList) { item in
-                    NavigationLink(destination: EditWordsView(word: String())) {
+                    NavigationLink(destination: EditWordsView(words: Words())) {
                         VStack {
                             Text(item.englishWord ?? "")
-                                .frame(width: .infinity,alignment: .leading)
                         }
                     }
                 }

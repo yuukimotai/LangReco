@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F301C1B29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1929377D3E00EF7010 /* Words+CoreDataClass.swift */; };
+		9F301C1C29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1929377D3E00EF7010 /* Words+CoreDataClass.swift */; };
+		9F301C1D29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1929377D3E00EF7010 /* Words+CoreDataClass.swift */; };
+		9F301C1E29377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1A29377D3E00EF7010 /* Words+CoreDataProperties.swift */; };
+		9F301C1F29377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1A29377D3E00EF7010 /* Words+CoreDataProperties.swift */; };
+		9F301C2029377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F301C1A29377D3E00EF7010 /* Words+CoreDataProperties.swift */; };
 		9F3B2BF129335EE9008FDBD8 /* AddWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B2BF029335EE9008FDBD8 /* AddWordsView.swift */; };
 		9F48F4B02934CCE9006E99D8 /* EditWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48F4AF2934CCE9006E99D8 /* EditWordsView.swift */; };
 		9F6B3B00293230EF00F6B52B /* LangRecoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3AFF293230EF00F6B52B /* LangRecoApp.swift */; };
@@ -18,12 +24,6 @@
 		9F6B3B16293230F000F6B52B /* LangRecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B15293230F000F6B52B /* LangRecoTests.swift */; };
 		9F6B3B20293230F000F6B52B /* LangRecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B1F293230F000F6B52B /* LangRecoUITests.swift */; };
 		9F6B3B22293230F000F6B52B /* LangRecoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B21293230F000F6B52B /* LangRecoUITestsLaunchTests.swift */; };
-		9F6B3B302932319000F6B52B /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2E2932319000F6B52B /* Words+CoreDataClass.swift */; };
-		9F6B3B312932319000F6B52B /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2E2932319000F6B52B /* Words+CoreDataClass.swift */; };
-		9F6B3B322932319000F6B52B /* Words+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2E2932319000F6B52B /* Words+CoreDataClass.swift */; };
-		9F6B3B332932319000F6B52B /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2F2932319000F6B52B /* Words+CoreDataProperties.swift */; };
-		9F6B3B342932319000F6B52B /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2F2932319000F6B52B /* Words+CoreDataProperties.swift */; };
-		9F6B3B352932319000F6B52B /* Words+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B3B2F2932319000F6B52B /* Words+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F301C1929377D3E00EF7010 /* Words+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F301C1A29377D3E00EF7010 /* Words+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9F3B2BF029335EE9008FDBD8 /* AddWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordsView.swift; sourceTree = "<group>"; };
 		9F48F4AF2934CCE9006E99D8 /* EditWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWordsView.swift; sourceTree = "<group>"; };
 		9F6B3AFC293230EF00F6B52B /* LangReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LangReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,8 +60,6 @@
 		9F6B3B1B293230F000F6B52B /* LangRecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangRecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B3B1F293230F000F6B52B /* LangRecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangRecoUITests.swift; sourceTree = "<group>"; };
 		9F6B3B21293230F000F6B52B /* LangRecoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangRecoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9F6B3B2E2932319000F6B52B /* Words+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9F6B3B2F2932319000F6B52B /* Words+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Words+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		9F6B3AF3293230EF00F6B52B = {
 			isa = PBXGroup;
 			children = (
-				9F6B3B2E2932319000F6B52B /* Words+CoreDataClass.swift */,
-				9F6B3B2F2932319000F6B52B /* Words+CoreDataProperties.swift */,
+				9F301C1929377D3E00EF7010 /* Words+CoreDataClass.swift */,
+				9F301C1A29377D3E00EF7010 /* Words+CoreDataProperties.swift */,
 				9F6B3AFE293230EF00F6B52B /* LangReco */,
 				9F6B3B14293230F000F6B52B /* LangRecoTests */,
 				9F6B3B1E293230F000F6B52B /* LangRecoUITests */,
@@ -280,11 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6B3B0C293230F000F6B52B /* LangReco.xcdatamodeld in Sources */,
-				9F6B3B332932319000F6B52B /* Words+CoreDataProperties.swift in Sources */,
+				9F301C1B29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */,
 				9F3B2BF129335EE9008FDBD8 /* AddWordsView.swift in Sources */,
+				9F301C1E29377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */,
 				9F6B3B09293230F000F6B52B /* Persistence.swift in Sources */,
 				9F6B3B02293230EF00F6B52B /* ContentView.swift in Sources */,
-				9F6B3B302932319000F6B52B /* Words+CoreDataClass.swift in Sources */,
 				9F48F4B02934CCE9006E99D8 /* EditWordsView.swift in Sources */,
 				9F6B3B00293230EF00F6B52B /* LangRecoApp.swift in Sources */,
 			);
@@ -295,8 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6B3B16293230F000F6B52B /* LangRecoTests.swift in Sources */,
-				9F6B3B342932319000F6B52B /* Words+CoreDataProperties.swift in Sources */,
-				9F6B3B312932319000F6B52B /* Words+CoreDataClass.swift in Sources */,
+				9F301C1F29377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */,
+				9F301C1C29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6B3B22293230F000F6B52B /* LangRecoUITestsLaunchTests.swift in Sources */,
-				9F6B3B322932319000F6B52B /* Words+CoreDataClass.swift in Sources */,
+				9F301C1D29377D3E00EF7010 /* Words+CoreDataClass.swift in Sources */,
 				9F6B3B20293230F000F6B52B /* LangRecoUITests.swift in Sources */,
-				9F6B3B352932319000F6B52B /* Words+CoreDataProperties.swift in Sources */,
+				9F301C2029377D3E00EF7010 /* Words+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

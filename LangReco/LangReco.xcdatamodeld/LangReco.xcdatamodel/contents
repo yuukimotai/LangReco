@@ -3,6 +3,5 @@
     <entity name="Words" representedClassName="Words" syncable="YES">
         <attribute name="englishWord" optional="YES" attributeType="String"/>
         <attribute name="japaneseWord" optional="YES" attributeType="String"/>
-        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
     </entity>
 </model>
